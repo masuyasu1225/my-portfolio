@@ -5,9 +5,18 @@
 }
 
 .section {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin-bottom: 40px;
+}
+
+.skill-content {
+  /* 追加 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
@@ -15,6 +24,7 @@
   border-bottom: solid 3px black;
   font-size: 24px;
   text-align: center;
+  margin: 10px;
 }
 
 .section p {
@@ -35,15 +45,26 @@
 
 .card {
   display: flex;
-  width: 380px;
-  height: 300px;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 200px;
   box-shadow: 2px 2px 4px 2px #777777;
   border-radius: 5px;
   background-color: white;
   transition: background-color 0.3s ease;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .card img {
   width: 100px;
   height: 100px;
+  margin-bottom: 10px;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: row;
 }
