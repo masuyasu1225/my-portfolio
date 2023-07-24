@@ -5,12 +5,16 @@
 }
 
 .section {
+  display: grid;
+  justify-content: center;
   margin-bottom: 40px;
 }
 
-.section h2 {
+.title {
+  width: 200px;
+  border-bottom: solid 3px black;
   font-size: 24px;
-  margin-bottom: 10px;
+  text-align: center;
 }
 
 .section p {
@@ -27,4 +31,19 @@
 
 .service {
   /* ここに特定のスタイルを追加 */
+}
+
+.card {
+  display: flex;
+  width: 380px;
+  height: 300px;
+  box-shadow: 2px 2px 4px 2px #777777;
+  border-radius: 5px;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
 }
