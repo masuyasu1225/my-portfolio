@@ -3,12 +3,14 @@ import "./App.css";
 import Home from "./Home.js";
 import Navbar from "./Navbar";
 
+const homeUrl = process.env.PUBLIC_URL;
+
 function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path={homeUrl} element={<Home />}></Route>
       </Routes>
     </Router>
   );
