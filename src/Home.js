@@ -6,8 +6,8 @@ import reactLogo from "./Picture/react.svg"; // 画像をimport
 import cLanguageLogo from "./Picture/clanguage.png"; // 画像をimport
 import pythonLogo from "./Picture/python.svg"; // 画像をimport
 import springLogo from "./Picture/spring.svg"; // 画像をimport
-import postgreSQLLogo from "./Picture/postgresql.svg"; // 画像をimport
-import mysql from "./Picture/mysql.svg"; // 画像をimport
+import postgresqlLogo from "./Picture/postgresql.svg"; // 画像をimport
+import mysqlLogo from "./Picture/mysql.svg"; // 画像をimport
 
 const AboutMe = () => (
   <div className="section about-me">
@@ -45,14 +45,24 @@ const Skill = () => (
           <div>経験年数：1年</div>
         </div>
         <div className="card">
-          <img src={pythonLogo} alt="postgresql" />
-          <div>PostgreSQL</div>
+          <img src={pythonLogo} alt="python" />
+          <div>Python</div>
           <div>経験年数：1年</div>
         </div>
         <div className="card">
-          <img src={pythonLogo} alt="mysql" />
+          <img src={postgresqlLogo} alt="postgresql" />
+          <div>PostgreSQL</div>
+          <div>経験年数：3か月</div>
+        </div>
+        <div className="card">
+          <img src={mysqlLogo} alt="mysql" />
           <div>MySQL</div>
-          <div>経験年数：1年</div>
+          <div>経験年数：3か月</div>
+        </div>
+        <div className="card">
+          <img src={springLogo} alt="spring" />
+          <div>MySQL</div>
+          <div>経験年数：3か月</div>
         </div>
       </div>
     </div>
