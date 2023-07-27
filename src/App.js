@@ -7,10 +7,10 @@ const homeUrl = process.env.PUBLIC_URL;
 
 function App() {
   return (
-    <Router>
+    <Router basename="/my-portfolio">
       <Navbar />
       <Routes>
-        <Route path={homeUrl} element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
       </Routes>
     </Router>
   );
