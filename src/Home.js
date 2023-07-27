@@ -71,8 +71,29 @@ const Skill = () => (
 
 const Service = () => (
   <div className="section service">
-    <div className="title">Service</div>
-    <p>ここに提供するサービスを記載</p>
+    <div className="service-content">
+      <div className="title">Service</div>
+      <div className="cardList">
+        <div className="service-card">
+          <a
+            href="https://main.d35b455ocegw81.amplifyapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={javaLogo} alt="java" />
+            <div>ポケモン図鑑</div>
+          </a>
+        </div>
+        <div className="service-card">
+          <img src={javaLogo} alt="java" />
+          <div>ブログ</div>
+        </div>
+        <div className="service-card">
+          <img src={javaLogo} alt="java" />
+          <div>discordbot</div>
+        </div>
+      </div>
+    </div>
   </div>
 );
 
