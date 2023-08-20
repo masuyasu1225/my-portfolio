@@ -52,7 +52,7 @@ const Skill = () => (
         <div className="card">
           <img src={postgresqlLogo} alt="postgresql" />
           <div>PostgreSQL</div>
-          <div>経験年数：3か月</div>
+          <div>経験年数：1年</div>
         </div>
         <div className="card">
           <img src={mysqlLogo} alt="mysql" />
@@ -74,6 +74,16 @@ const Service = () => (
     <div className="service-content">
       <div className="title">Service</div>
       <div className="cardList">
+        <div className="service-card">
+          <a
+            href="https://dog-app-e3a64.firebaseapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={javaLogo} alt="java" />
+            <div>Dog Gacha</div>
+          </a>
+        </div>
         <div className="service-card">
           <a
             href="https://main.d35b455ocegw81.amplifyapp.com/"
