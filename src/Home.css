@@ -38,23 +38,11 @@
   font-size: 16px;
 }
 
-.about-me {
-  /* ここに特定のスタイルを追加 */
-}
-
-.skill {
-  /* ここに特定のスタイルを追加 */
-}
-
-.service {
-  /* ここに特定のスタイルを追加 */
-}
-
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(20% - 20px); /* 33.33% is for 3 cards, 20px is for margin */
+  width: calc(20% - 20px);
   box-shadow: 2px 2px 4px 2px #777777;
   border-radius: 5px;
   background-color: white;
@@ -81,7 +69,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(80% - 20px); /* 33.33% is for 3 cards, 20px is for margin */
+  width: 100%;
   box-shadow: 2px 2px 4px 2px #777777;
   border-radius: 5px;
   background-color: white;
@@ -98,4 +86,9 @@
 
 .service-card :hover {
   background-color: #7777;
+}
+
+.slick-slider {
+  height: auto;
+  width: 100%;
 }

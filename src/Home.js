@@ -8,6 +8,9 @@ import pythonLogo from "./Picture/python.svg"; // 画像をimport
 import springLogo from "./Picture/spring.svg"; // 画像をimport
 import postgresqlLogo from "./Picture/postgresql.svg"; // 画像をimport
 import mysqlLogo from "./Picture/mysql.svg"; // 画像をimport
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const AboutMe = () => (
   <div className="section about-me">
@@ -69,49 +72,57 @@ const Skill = () => (
   </div>
 );
 
-const Service = () => (
-  <div className="section service">
-    <div className="service-content">
-      <div className="title">Service</div>
-      <div className="cardList">
-        <div className="service-card">
-          <a
-            href="https://dog-app-e3a64.firebaseapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={javaLogo} alt="java" />
-            <div>Dog Gacha</div>
-          </a>
-        </div>
-        <div className="service-card">
-          <a
-            href="https://main.d35b455ocegw81.amplifyapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={javaLogo} alt="java" />
-            <div>ポケモン図鑑</div>
-          </a>
-        </div>
-        <div className="service-card">
-          <a
-            href="https://blog-c220d.firebaseapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={javaLogo} alt="java" />
-            <div>ブログ</div>
-          </a>
-        </div>
-        <div className="service-card">
-          <img src={javaLogo} alt="java" />
-          <div>discordbot</div>
-        </div>
+const Service = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
+  return (
+    <div className="section service">
+      <div className="service-content">
+        <div className="title">Service</div>
+        <Slider {...settings}>
+          <div>
+            <a
+              href="https://dog-app-e3a64.firebaseapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div>Dog Gacha</div>
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://main.d35b455ocegw81.amplifyapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div>ポケモン図鑑</div>
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://blog-c220d.firebaseapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div>ブログ</div>
+            </a>
+          </div>
+          {/* <div classNae="service-card"> */}
+          <div>
+            <div>discordbot</div>
+          </div>
+        </Slider>
+        {/* </div> */}
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 const Home = () => {
   return (
