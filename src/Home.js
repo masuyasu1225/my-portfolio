@@ -95,8 +95,14 @@ const Service = () => (
           </a>
         </div>
         <div className="service-card">
-          <img src={javaLogo} alt="java" />
-          <div>ブログ</div>
+          <a
+            href="https://blog-c220d.firebaseapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={javaLogo} alt="java" />
+            <div>ブログ</div>
+          </a>
         </div>
         <div className="service-card">
           <img src={javaLogo} alt="java" />
