@@ -1,13 +1,17 @@
 import React from "react";
 import "./Home.css";
-import javaLogo from "./Picture/java.svg"; // 画像をimport
-import javaScriptLogo from "./Picture/javascript.svg"; // 画像をimport
-import reactLogo from "./Picture/react.svg"; // 画像をimport
-import cLanguageLogo from "./Picture/clanguage.png"; // 画像をimport
-import pythonLogo from "./Picture/python.svg"; // 画像をimport
-import springLogo from "./Picture/spring.svg"; // 画像をimport
-import postgresqlLogo from "./Picture/postgresql.svg"; // 画像をimport
-import mysqlLogo from "./Picture/mysql.svg"; // 画像をimport
+import javaLogo from "./Picture/java.svg";
+import javaScriptLogo from "./Picture/javascript.svg";
+import reactLogo from "./Picture/react.svg";
+import cLanguageLogo from "./Picture/clanguage.png";
+import pythonLogo from "./Picture/python.svg";
+import springLogo from "./Picture/spring.svg";
+import postgresqlLogo from "./Picture/postgresql.svg";
+import mysqlLogo from "./Picture/mysql.svg";
+import blog from "./Picture/blog.png";
+import doggacha from "./Picture/doggacha.png";
+import moneycalculator from "./Picture/moneycalculator.png";
+import pokedex from "./Picture/pokedex.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -18,7 +22,7 @@ const AboutMe = () => (
     <p>
       業務系のシステム開発を行うSIerの会社に1年2か月ほど勤務し、設計・開発・テストを一通り行いました。
     </p>
-    <p>フロントエンドエンジニアへの転職を目指しています。</p>
+    <p>Webエンジニアへの転職を目指しています。</p>
   </div>
 );
 
@@ -92,6 +96,7 @@ const Service = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
+              <img src={doggacha} alt="doggcha" />
               <div>Dog Gacha</div>
             </a>
           </div>
@@ -101,6 +106,7 @@ const Service = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
+              <img src={pokedex} alt="pokedex" />
               <div>ポケモン図鑑</div>
             </a>
           </div>
@@ -110,12 +116,20 @@ const Service = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
+              <img src={blog} alt="blog" />
               <div>ブログ</div>
             </a>
           </div>
           {/* <div classNae="service-card"> */}
           <div className="service-card">
-            <div>discordbot</div>
+            <a
+              href="https://discord.com/api/oauth2/authorize?client_id=1126335503365586998&permissions=3072&scope=bot"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={moneycalculator} alt="moneycalculator" />
+              <div>MoneyCalculator</div>
+            </a>
           </div>
         </Slider>
         {/* </div> */}
