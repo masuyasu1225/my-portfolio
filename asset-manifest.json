@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.7e86b2d5.css",
-    "main.js": "/my-portfolio/static/js/main.8d8dc2ba.js",
+    "main.css": "/my-portfolio/static/css/main.8a7c0e5a.css",
+    "main.js": "/my-portfolio/static/js/main.cba9f7bb.js",
+    "static/media/doggacha.png": "/my-portfolio/static/media/doggacha.d88d667e86f2f509bea1.png",
+    "static/media/pokedex.png": "/my-portfolio/static/media/pokedex.1e5e931d4c74be20d425.png",
+    "static/media/blog.png": "/my-portfolio/static/media/blog.4953c27fe6e069b11916.png",
+    "static/media/moneycalculator.png": "/my-portfolio/static/media/moneycalculator.b6cddccd9586d55904a0.png",
     "static/media/clanguage.png": "/my-portfolio/static/media/clanguage.83dfa097dfa94f707a41.png",
     "static/media/postgresql.svg": "/my-portfolio/static/media/postgresql.7c0ecebe3a8282bd680c02f40052e0ea.svg",
     "static/media/mysql.svg": "/my-portfolio/static/media/mysql.88631d0de40f60cec048c5f2549eaf37.svg",
@@ -15,11 +19,11 @@
     "static/media/javascript.svg": "/my-portfolio/static/media/javascript.fd46ca41839433d73577989d86eb2fe2.svg",
     "static/media/slick.woff": "/my-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/my-portfolio/index.html",
-    "main.7e86b2d5.css.map": "/my-portfolio/static/css/main.7e86b2d5.css.map",
-    "main.8d8dc2ba.js.map": "/my-portfolio/static/js/main.8d8dc2ba.js.map"
+    "main.8a7c0e5a.css.map": "/my-portfolio/static/css/main.8a7c0e5a.css.map",
+    "main.cba9f7bb.js.map": "/my-portfolio/static/js/main.cba9f7bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e86b2d5.css",
-    "static/js/main.8d8dc2ba.js"
+    "static/css/main.8a7c0e5a.css",
+    "static/js/main.cba9f7bb.js"
   ]
 }
