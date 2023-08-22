@@ -86,7 +86,7 @@ const Service = () => {
       <div className="service-content">
         <div className="title">Service</div>
         <Slider {...settings}>
-          <div>
+          <div className="service-card">
             <a
               href="https://dog-app-e3a64.firebaseapp.com/"
               target="_blank"
@@ -95,7 +95,7 @@ const Service = () => {
               <div>Dog Gacha</div>
             </a>
           </div>
-          <div>
+          <div className="service-card">
             <a
               href="https://main.d35b455ocegw81.amplifyapp.com/"
               target="_blank"
@@ -104,7 +104,7 @@ const Service = () => {
               <div>ポケモン図鑑</div>
             </a>
           </div>
-          <div>
+          <div className="service-card">
             <a
               href="https://blog-c220d.firebaseapp.com/"
               target="_blank"
@@ -114,7 +114,7 @@ const Service = () => {
             </a>
           </div>
           {/* <div classNae="service-card"> */}
-          <div>
+          <div className="service-card">
             <div>discordbot</div>
           </div>
         </Slider>
