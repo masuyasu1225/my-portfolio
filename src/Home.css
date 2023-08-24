@@ -102,3 +102,8 @@
   box-shadow: 2px 2px 4px 2px #777777;
   border-radius: 5px;
 }
+
+.slick-slider .slick-prev:before,
+.slick-slider .slick-next:before {
+  color: black !important; /* アイコンの色 */
+}
