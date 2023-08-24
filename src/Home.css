@@ -119,3 +119,15 @@
   transition: background-color 0.5s, color 0.5s;
   color: white;
 }
+
+/* 600px以下の画面幅（スマホ向け）の場合のスタイル */
+@media (max-width: 600px) {
+  .card {
+    width: calc(50% - 10px);
+    margin: 5px;
+  }
+  .card img {
+    width: 50px;
+    height: 50px;
+  }
+}
