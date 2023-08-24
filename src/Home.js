@@ -97,7 +97,8 @@ const Service = () => {
               rel="noopener noreferrer"
             >
               <img src={doggacha} alt="doggcha" />
-              <div>Dog Gacha</div>
+              <h4>Dog Gacha</h4>
+              <div>犬のガチャ</div>
             </a>
           </div>
           <div className="service-card">
@@ -107,7 +108,8 @@ const Service = () => {
               rel="noopener noreferrer"
             >
               <img src={pokedex} alt="pokedex" />
-              <div>ポケモン図鑑</div>
+              <h4>ポケモン図鑑</h4>
+              <div>ポケモンの図鑑</div>
             </a>
           </div>
           <div className="service-card">
@@ -117,7 +119,8 @@ const Service = () => {
               rel="noopener noreferrer"
             >
               <img src={blog} alt="blog" />
-              <div>ブログ</div>
+              <h4>ブログ</h4>
+              <div>ブログです</div>
             </a>
           </div>
           {/* <div classNae="service-card"> */}
@@ -128,7 +131,8 @@ const Service = () => {
               rel="noopener noreferrer"
             >
               <img src={moneycalculator} alt="moneycalculator" />
-              <div>MoneyCalculator</div>
+              <h4>MoneyCalculator</h4>
+              <div>数字の計算ができます</div>
             </a>
           </div>
         </Slider>
