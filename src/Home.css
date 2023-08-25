@@ -1,7 +1,7 @@
 .Home {
   font-family: Arial, sans-serif;
   color: #333;
-  padding: 20px;
+  padding: 0 15%;
   background-color: #fcf9ef;
 }
 
@@ -101,7 +101,7 @@
 
 .slick-slider {
   height: auto;
-  width: 50%;
+  width: 60%;
   box-sizing: border-box;
   box-shadow: 2px 2px 4px 2px #777777;
   border-radius: 5px;
