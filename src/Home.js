@@ -23,6 +23,13 @@ const AboutMe = () => (
       業務系のシステム開発を行うSIerの会社に1年2か月ほど勤務し、設計・開発・テストを一通り行いました。
     </p>
     <p>Webエンジニアへの転職を目指しています。</p>
+    <a
+      href="https://github.com/masuyasu1225"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      github
+    </a>
   </div>
 );
 
