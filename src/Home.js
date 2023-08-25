@@ -142,12 +142,30 @@ const Service = () => {
   );
 };
 
+const Academic = () => (
+  <div className="section academic">
+    <div className="academic-content">
+      <div className="title">Academic</div>
+      <div className="academic-card">
+        <a
+          href="https://www.itmedia.co.jp/news/articles/2112/24/news059.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          PefermEyebrow
+        </a>
+      </div>
+    </div>
+  </div>
+);
+
 const Home = () => {
   return (
     <div className="Home">
       <AboutMe />
       <Skill />
       <Service />
+      <Academic />
     </div>
   );
 };
