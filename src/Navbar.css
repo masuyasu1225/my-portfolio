@@ -5,6 +5,10 @@ nav {
   height: 50px;
   background-color: mediumseagreen;
   gap: 45px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100; /* 他の要素よりも上に表示されるようにする */
 }
 
 nav a {
