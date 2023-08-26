@@ -18,7 +18,7 @@ import "slick-carousel/slick/slick-theme.css";
 import ContactForm from "./ContactForm";
 
 const AboutMe = () => (
-  <div className="section about-me">
+  <div className="section about-me" id="about-me">
     <div className="title">About Me</div>
     <p>
       業務系のシステム開発を行うSIerの会社に1年2か月ほど勤務し、設計・開発・テストを一通り行いました。
@@ -35,7 +35,7 @@ const AboutMe = () => (
 );
 
 const Skill = () => (
-  <div className="section skill">
+  <div className="section skill" id="skill">
     <div className="skill-content">
       <div className="title">Skill</div>
       <div className="cardList">
@@ -94,7 +94,7 @@ const Service = () => {
   };
 
   return (
-    <div className="section service">
+    <div className="section service" id="service">
       <div className="service-content">
         <div className="title">Service</div>
         <Slider {...settings}>
@@ -152,7 +152,7 @@ const Service = () => {
 
 const Academic = () => {
   return (
-    <div className="section academic">
+    <div className="section academic" id="academic">
       <div className="academic-content">
         <div className="title">Academic</div>
         <div className="academic-card">
