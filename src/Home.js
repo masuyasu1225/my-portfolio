@@ -15,6 +15,7 @@ import pokedex from "./Picture/pokedex.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ContactForm from "./ContactForm";
 
 const AboutMe = () => (
   <div className="section about-me">
@@ -232,6 +233,7 @@ const Home = () => {
       <Skill />
       <Service />
       <Academic />
+      <ContactForm />
     </div>
   );
 };

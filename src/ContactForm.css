@@ -1,0 +1,53 @@
+.submit-button button {
+  background-color: #3498db; /* 青色 */
+  color: white; /* テキストの色 */
+  border: none; /* 境界線を削除 */
+  padding: 10px 20px; /* パディングを追加 */
+  border-radius: 5px; /* 角を丸くする */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 影を追加 */
+  font-size: 16px; /* テキストのフォントサイズを大きく */
+  cursor: pointer; /* マウスカーソルを手の形に変更 */
+  transition: all 0.3s ease; /* トランジション効果を追加 */
+  transform: translateY(0); /* 初期位置 */
+}
+
+.submit-button button:hover {
+  background-color: #2980b9; /* ホバー時の背景色 */
+  transform: translateY(-2px); /* ホバー時に少し上に動かす */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.form input,
+.form textarea {
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #3498db; /* 青色に変更することでフォーカスを示す */
+  outline: none; /* デフォルトのアウトラインを削除 */
+}
+
+/* 必要に応じて、全体のフォームのスタイルも調整できます */
+.form-container {
+  max-width: 600px; /* 例として、600pxの最大幅 */
+  margin: 20px auto; /* 上下のマージンと、左右を中央寄せ */
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 影を追加 */
+  background-color: #ffffff; /* 白色の背景 */
+}
