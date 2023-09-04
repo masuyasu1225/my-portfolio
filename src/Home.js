@@ -230,8 +230,8 @@ const Home = () => {
   return (
     <div className="Home">
       <AboutMe />
-      <Skill />
       <Service />
+      <Skill />
       <Academic />
       <ContactForm />
     </div>
