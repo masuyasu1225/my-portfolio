@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import githubLogo from "./Picture/github-mark.svg";
 import javaLogo from "./Picture/java.svg";
 import javaScriptLogo from "./Picture/javascript.svg";
 import reactLogo from "./Picture/react.svg";
@@ -29,7 +30,8 @@ const AboutMe = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      github
+      <img src={githubLogo} alt="github" />
+      githubリンク
     </a>
   </div>
 );
