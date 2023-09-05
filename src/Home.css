@@ -99,6 +99,7 @@
   }
   .service-card {
     width: 100%; /* 幅を100%に */
+    height: auto;
     margin: 10px 0; /* マージンを上下10px、左右0に調整 */
   }
 }
