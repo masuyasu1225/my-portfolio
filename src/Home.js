@@ -85,19 +85,11 @@ const Skill = () => (
 );
 
 const Service = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
-
   return (
     <div className="section service" id="service">
       <div className="service-content">
         <div className="title">Service</div>
-        <Slider {...settings}>
+        <div className="cardList">
           <div className="service-card">
             <a
               href="https://dog-app-e3a64.firebaseapp.com/"
@@ -131,7 +123,6 @@ const Service = () => {
               <div>ブログです</div>
             </a>
           </div>
-          {/* <div classNae="service-card"> */}
           <div className="service-card">
             <a
               href="https://discord.com/api/oauth2/authorize?client_id=1126335503365586998&permissions=3072&scope=bot"
@@ -143,8 +134,7 @@ const Service = () => {
               <div>数字の計算ができます</div>
             </a>
           </div>
-        </Slider>
-        {/* </div> */}
+        </div>
       </div>
     </div>
   );

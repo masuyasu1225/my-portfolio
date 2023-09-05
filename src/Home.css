@@ -73,18 +73,24 @@
   width: 100%;
 }
 
-/* .service-card {
+.service-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: auto;
+  width: calc(50% - 20px);
+  box-shadow: 2px 2px 4px 2px #777777;
+  border-radius: 5px;
   background-color: white;
   transition: background-color 0.3s ease;
-  margin: 3px;
-  padding: 5px;
+  margin: 10px;
   box-sizing: border-box;
-  text-decoration: none;
-} */
+}
+
+.service-card :hover {
+  background-color: mediumseagreen;
+  transition: background-color 0.5s, color 0.5s;
+  color: white;
+}
 
 .card img {
   width: 100px;
