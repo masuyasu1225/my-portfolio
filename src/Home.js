@@ -90,50 +90,50 @@ const Service = () => {
       <div className="service-content">
         <div className="title">Service</div>
         <div className="cardList">
-          <div className="service-card">
-            <a
-              href="https://dog-app-e3a64.firebaseapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+          <a
+            href="https://dog-app-e3a64.firebaseapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="service-card">
               <img src={doggacha} alt="doggcha" />
               <h4>Dog Gacha</h4>
               <div>犬のガチャ</div>
-            </a>
-          </div>
-          <div className="service-card">
-            <a
-              href="https://main.d35b455ocegw81.amplifyapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            </div>
+          </a>
+          <a
+            href="https://main.d35b455ocegw81.amplifyapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="service-card">
               <img src={pokedex} alt="pokedex" />
               <h4>ポケモン図鑑</h4>
               <div>ポケモンの図鑑</div>
-            </a>
-          </div>
-          <div className="service-card">
-            <a
-              href="https://blog-c220d.firebaseapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            </div>
+          </a>
+          <a
+            href="https://blog-c220d.firebaseapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="service-card">
               <img src={blog} alt="blog" />
               <h4>ブログ</h4>
               <div>ブログです</div>
-            </a>
-          </div>
-          <div className="service-card">
-            <a
-              href="https://discord.com/api/oauth2/authorize?client_id=1126335503365586998&permissions=3072&scope=bot"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            </div>
+          </a>
+          <a
+            href="https://discord.com/api/oauth2/authorize?client_id=1126335503365586998&permissions=3072&scope=bot"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="service-card">
               <img src={moneycalculator} alt="moneycalculator" />
               <h4>MoneyCalculator</h4>
               <div>数字の計算ができます</div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
