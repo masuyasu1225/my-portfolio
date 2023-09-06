@@ -74,7 +74,7 @@
 }
 
 .service-card {
-  width: 500px; /* 幅を250pxに固定 */
+  width: 600px; /* 幅を250pxに固定 */
   height: 400px; /* 高さを250pxに固定 */
   padding: 15px; /* パディングを追加して、aタグとの間にスペースを作ります */
 }
