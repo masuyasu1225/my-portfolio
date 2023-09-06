@@ -34,7 +34,7 @@ const AboutMe = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={githubLogo} alt="github" />
+          <img src={githubLogo} alt="github" className="github-logo" />
           githubリンク
         </a>
       </div>
