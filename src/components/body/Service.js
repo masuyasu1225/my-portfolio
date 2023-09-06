@@ -1,8 +1,8 @@
 import React from "react";
-import doggacha from "../Picture/doggacha.png";
-import pokedex from "../Picture/pokedex.png";
-import blog from "../Picture/blog.png";
-import moneycalculator from "../Picture/moneycalculator.png";
+import doggacha from "../../Picture/doggacha.png";
+import pokedex from "../../Picture/pokedex.png";
+import blog from "../../Picture/blog.png";
+import moneycalculator from "../../Picture/moneycalculator.png";
 
 const Service = () => {
   return (

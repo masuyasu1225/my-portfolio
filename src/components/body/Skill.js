@@ -1,12 +1,12 @@
 import React from "react";
-import javaLogo from "../Picture/java.svg";
-import javaScriptLogo from "../Picture/javascript.svg";
-import reactLogo from "../Picture/react.svg";
-import cLanguageLogo from "../Picture/clanguage.png";
-import pythonLogo from "../Picture/python.svg";
-import postgresqlLogo from "../Picture/postgresql.svg";
-import mysqlLogo from "../Picture/mysql.svg";
-import springLogo from "../Picture/spring.svg";
+import javaLogo from "../../Picture/java.svg";
+import javaScriptLogo from "../../Picture/javascript.svg";
+import reactLogo from "../../Picture/react.svg";
+import cLanguageLogo from "../../Picture/clanguage.png";
+import pythonLogo from "../../Picture/python.svg";
+import postgresqlLogo from "../../Picture/postgresql.svg";
+import mysqlLogo from "../../Picture/mysql.svg";
+import springLogo from "../../Picture/spring.svg";
 
 const Skill = () => (
   <div className="section skill" id="skill">

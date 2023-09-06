@@ -1,10 +1,10 @@
 import React from "react";
 import "./Home.css";
-import AboutMe from "./components/AboutMe";
-import Skill from "./components/Skill";
-import Service from "./components/Service";
-import Academic from "./components/Academic";
-import ContactForm from "./ContactForm";
+import AboutMe from "./components/body/AboutMe";
+import Skill from "./components/body/Skill";
+import Service from "./components/body/Service";
+import Academic from "./components/body/Academic";
+import ContactForm from "./components/body/ContactForm";
 
 const Home = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import masui from "../Picture/masui.jpg";
-import githubLogo from "../Picture/github-mark.svg";
+import masui from "../../Picture/masui.jpg";
+import githubLogo from "../../Picture/github-mark.svg";
 
 const AboutMe = () => (
   <div className="section about-me" id="about-me">
