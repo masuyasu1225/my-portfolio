@@ -21,6 +21,24 @@
   margin: 30px auto;
 }
 
+.about-me .card {
+  flex-direction: row; /* 子要素を横並びにします */
+  align-items: flex-start; /* 子要素を上寄せにします */
+  gap: 20px; /* img と .card-content の間のスペース */
+  width: 80%;
+}
+
+.about-me .card img {
+  width: 30%; /* 画像のサイズを調整 */
+  height: auto;
+  margin-right: 20px; /* 右側のマージンを追加 */
+}
+
+.about-me .card-content {
+  flex: 1; /* 右側の空きスペースをすべて取る */
+  width: 100%; /* 幅を100%に設定 */
+}
+
 .section p {
   font-size: 16px;
 }
