@@ -18,7 +18,7 @@ const Service = () => {
             <div className="service-card">
               <img src={doggacha} alt="doggcha" />
               <h4>Dog Gacha</h4>
-              <div>犬のガチャ</div>
+              <div>えさを消費することで、犬の画像が表示されるガチャです。</div>
             </div>
           </a>
           <a
@@ -29,7 +29,11 @@ const Service = () => {
             <div className="service-card">
               <img src={pokedex} alt="pokedex" />
               <h4>ポケモン図鑑</h4>
-              <div>ポケモンの図鑑</div>
+              <div>
+                ポケモンの図鑑と検索機能が実装されています。
+                <br />
+                Udemyの講座をもとに自分でアレンジを加えました。
+              </div>
             </div>
           </a>
           <a
@@ -40,7 +44,10 @@ const Service = () => {
             <div className="service-card">
               <img src={blog} alt="blog" />
               <h4>ブログ</h4>
-              <div>ブログです</div>
+              <div>
+                投稿・リプライ・削除機能を搭載したブログサービスです。 <br />
+                Udemyの講座をもとに自分でアレンジを加えました。
+              </div>
             </div>
           </a>
           <a
@@ -51,7 +58,11 @@ const Service = () => {
             <div className="service-card">
               <img src={moneycalculator} alt="moneycalculator" />
               <h4>MoneyCalculator</h4>
-              <div>数字の計算ができます</div>
+              <div>
+                ユーザーごとに投稿された数字の合計値を計算するDiscordBotです。
+                <br />
+                友達との長期旅行でお金の割り勘のため実際に使用しました。
+              </div>
             </div>
           </a>
         </div>

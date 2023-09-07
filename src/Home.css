@@ -29,7 +29,7 @@
 }
 
 .about-me .card img {
-  width: 30%; /* 画像のサイズを調整 */
+  width: 40%; /* 画像のサイズを調整 */
   height: auto;
   margin-right: 20px; /* 右側のマージンを追加 */
 }
@@ -41,6 +41,10 @@
 
 .about-me .card-content a {
   color: blue;
+}
+
+.about-me .card-content li {
+  font-size: 18px;
 }
 
 .github-logo {
