@@ -11,7 +11,7 @@ const Navbar = () => {
         ☰
       </div>
       <div className={`nav-links ${isOpen ? "show" : ""}`}>
-        <Link to="/">ホーム</Link>
+        {/* <Link to="/">ホーム</Link> */}
         <a href="#about-me">About Me</a>
         <a href="#skill">Skill</a>
         <a href="#service">Service</a>

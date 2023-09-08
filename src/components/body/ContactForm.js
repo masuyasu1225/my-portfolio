@@ -44,6 +44,7 @@ const ContactForm = () => {
         <div className="form">
           <label>Comment:</label>
           <textarea
+            className="comment"
             value={comment}
             onChange={(e) => setComment(e.target.value)}
           />
