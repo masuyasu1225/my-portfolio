@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.c4500c0b.css",
-    "main.js": "/my-portfolio/static/js/main.57f09646.js",
+    "main.js": "/my-portfolio/static/js/main.077ae1d3.js",
     "static/media/masui.jpg": "/my-portfolio/static/media/masui.e112cc4418bb59fce56f.jpg",
     "static/media/doggacha.png": "/my-portfolio/static/media/doggacha.2d2d4878616606468617.png",
     "static/media/pokedex.png": "/my-portfolio/static/media/pokedex.1e5e931d4c74be20d425.png",
@@ -15,13 +15,12 @@
     "static/media/java.svg": "/my-portfolio/static/media/java.83165dfb2f5a7657ce4c73e0ba3cef32.svg",
     "static/media/python.svg": "/my-portfolio/static/media/python.6a8b2999db46fb931134216e8fdfdb2c.svg",
     "static/media/javascript.svg": "/my-portfolio/static/media/javascript.fd46ca41839433d73577989d86eb2fe2.svg",
-    "static/media/github-mark.svg": "/my-portfolio/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/my-portfolio/index.html",
     "main.c4500c0b.css.map": "/my-portfolio/static/css/main.c4500c0b.css.map",
-    "main.57f09646.js.map": "/my-portfolio/static/js/main.57f09646.js.map"
+    "main.077ae1d3.js.map": "/my-portfolio/static/js/main.077ae1d3.js.map"
   },
   "entrypoints": [
     "static/css/main.c4500c0b.css",
-    "static/js/main.57f09646.js"
+    "static/js/main.077ae1d3.js"
   ]
 }
