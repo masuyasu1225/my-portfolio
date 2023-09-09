@@ -25,7 +25,7 @@
   flex-direction: row; /* 子要素を横並びにします */
   align-items: flex-start; /* 子要素を上寄せにします */
   gap: 20px; /* img と .card-content の間のスペース */
-  width: 80%;
+  width: 85%;
 }
 
 .about-me .card img {
@@ -122,11 +122,11 @@
 }
 
 @media (max-width: 600px) {
-  .card {
+  .skill .card {
     width: calc(50% - 10px);
     margin: 5px;
   }
-  .card img {
+  .skill .card img {
     width: 50px;
     height: 50px;
   }
@@ -134,5 +134,23 @@
     width: 100%; /* 幅を100%に */
     height: auto;
     margin: 10px 0; /* マージンを上下10px、左右0に調整 */
+  }
+  .about-me .card {
+    flex-direction: column; /* 子要素を縦並びに変更 */
+    align-items: center; /* 子要素を中央寄せに変更 */
+  }
+
+  .about-me .card img {
+    width: 80%; /* 画像のサイズを調整 */
+    margin: 10px 0; /* 上下のマージンを追加 */
+  }
+
+  .about-me .card-content h1,
+  .about-me .card-content h3 {
+    font-size: 18px; /* テキストサイズの調整 */
+  }
+
+  .about-me .card-content li {
+    font-size: 14px; /* テキストサイズの調整 */
   }
 }

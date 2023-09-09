@@ -8,13 +8,13 @@ const AboutMe = () => (
     <div className="card">
       <img src={masui} alt="masui" />
       <div className="card-content">
-        <h1>増井 元康 (Motoyasu Masui)</h1>
-        <li>
-          業務系のシステム開発を行うSIerの会社に1年2か月ほど勤務し、
-          <br />
-          設計・開発・テストを一通り経験しました。
-        </li>
-        <li>Webエンジニアへの転職を目指しています。</li>
+        <h1>
+          増井 元康 <br />
+          (Motoyasu Masui)
+        </h1>
+        <li>業務系のシステム開発を行うSIerの会社に1年2か月ほど勤務</li>
+        <li> 設計・開発・テストを一通り経験</li>
+        <li>Webエンジニアへの転職を目指し勉強中</li>
         <li>
           <a
             href="https://github.com/masuyasu1225"
@@ -38,9 +38,7 @@ const AboutMe = () => (
         <div>
           <h3>学生時代の研究：人の表情を操作するデバイスの研究</h3>
           <li>
-            既定の温度に達すると色が消えるサーモクロミックインクと電熱回路を組み合わせ
-            <br />
-            眉毛を変化させることができる眼鏡型デバイス、
+            既定の温度に達すると色が消えるサーモクロミックインクと電熱回路を組み合わせ眉毛を変化させることができる眼鏡型デバイス、
             <a
               href="https://www.itmedia.co.jp/news/articles/2112/24/news059.html"
               target="_blank"
@@ -48,7 +46,7 @@ const AboutMe = () => (
             >
               PerformEyebrow
             </a>
-            を開発しました。
+            を開発
           </li>
           <li>2022年情報処理学会論文誌へ採録</li>
           <li>国際会議 (査読有) ：HCI2021, HCI2022, AHs2022</li>
