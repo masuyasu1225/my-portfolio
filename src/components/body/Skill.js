@@ -50,7 +50,7 @@ const Skill = () => (
         </div>
         <div className="card">
           <img src={springLogo} alt="spring" />
-          <div>MySQL</div>
+          <div>SpringL</div>
           <div>経験年数：3か月</div>
         </div>
       </div>
