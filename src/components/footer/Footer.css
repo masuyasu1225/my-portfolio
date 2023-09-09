@@ -8,23 +8,6 @@
   font-size: 14px;
 }
 
-.footer-links {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.footer-links a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer-links a:hover {
-  text-decoration: underline;
-}
-
 .footer-copyright {
-  margin-top: 20px;
+  margin-top: 10px;
 }
