@@ -2,9 +2,9 @@ import React from "react";
 import masui from "../../Picture/masui.jpg";
 import githubLogo from "../../Picture/github-mark.svg";
 
-const AboutMe = () => (
-  <div className="section about-me" id="about-me">
-    <div className="title">About Me</div>
+const Profile = () => (
+  <div className="section profile" id="profile">
+    <div className="title">Profile</div>
     <div className="card">
       <img src={masui} alt="masui" />
       <div className="card-content">
@@ -60,4 +60,4 @@ const AboutMe = () => (
   </div>
 );
 
-export default AboutMe;
+export default Profile;

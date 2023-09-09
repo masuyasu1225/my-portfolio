@@ -21,29 +21,29 @@
   margin: 30px auto;
 }
 
-.about-me .card {
+.profile .card {
   flex-direction: row; /* 子要素を横並びにします */
   align-items: flex-start; /* 子要素を上寄せにします */
   gap: 20px; /* img と .card-content の間のスペース */
   width: 85%;
 }
 
-.about-me .card img {
+.profile .card img {
   width: 40%; /* 画像のサイズを調整 */
   height: auto;
   margin-right: 20px; /* 右側のマージンを追加 */
 }
 
-.about-me .card-content {
+.profile .card-content {
   flex: 1; /* 右側の空きスペースをすべて取る */
   width: 100%; /* 幅を100%に設定 */
 }
 
-.about-me .card-content a {
+.profile .card-content a {
   color: blue;
 }
 
-.about-me .card-content li {
+.profile .card-content li {
   font-size: 18px;
 }
 
@@ -112,7 +112,7 @@
   box-shadow: 4px 4px 8px 4px black;
 }
 
-#about-me,
+#profile,
 #skill,
 #service,
 #academic,
@@ -135,22 +135,22 @@
     height: auto;
     margin: 10px 0; /* マージンを上下10px、左右0に調整 */
   }
-  .about-me .card {
+  .profile .card {
     flex-direction: column; /* 子要素を縦並びに変更 */
     align-items: center; /* 子要素を中央寄せに変更 */
   }
 
-  .about-me .card img {
+  .profile .card img {
     width: 80%; /* 画像のサイズを調整 */
     margin: 10px 0; /* 上下のマージンを追加 */
   }
 
-  .about-me .card-content h1,
-  .about-me .card-content h3 {
+  .profile .card-content h1,
+  .profile .card-content h3 {
     font-size: 18px; /* テキストサイズの調整 */
   }
 
-  .about-me .card-content li {
+  .profile .card-content li {
     font-size: 14px; /* テキストサイズの調整 */
   }
 }
