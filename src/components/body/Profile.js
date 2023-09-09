@@ -1,6 +1,6 @@
 import React from "react";
 import masui from "../../Picture/masui.jpg";
-import githubLogo from "../../Picture/github-mark.svg";
+// import githubLogo from "../../Picture/github-mark.svg";
 
 const Profile = () => (
   <div className="section profile" id="profile">
