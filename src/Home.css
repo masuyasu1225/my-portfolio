@@ -131,26 +131,26 @@
     height: 50px;
   }
   .service-card {
-    width: 100%; /* 幅を100%に */
+    width: 100%;
     height: auto;
-    margin: 10px 0; /* マージンを上下10px、左右0に調整 */
+    margin: 10px 0;
   }
   .profile .card {
-    flex-direction: column; /* 子要素を縦並びに変更 */
-    align-items: center; /* 子要素を中央寄せに変更 */
+    flex-direction: column;
+    align-items: center;
   }
-
   .profile .card img {
-    width: 80%; /* 画像のサイズを調整 */
-    margin: 10px 0; /* 上下のマージンを追加 */
+    width: 80%;
+    margin: 10px 0;
+  }
+  .profile .card-content h1 {
+    font-size: 18px;
   }
 
-  .profile .card-content h1,
   .profile .card-content h3 {
-    font-size: 18px; /* テキストサイズの調整 */
+    font-size: 16px;
   }
-
   .profile .card-content li {
-    font-size: 14px; /* テキストサイズの調整 */
+    font-size: 14px;
   }
 }
