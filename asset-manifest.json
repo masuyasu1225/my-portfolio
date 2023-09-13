@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.6e88910f.css",
-    "main.js": "/my-portfolio/static/js/main.0f84d41f.js",
+    "main.css": "/my-portfolio/static/css/main.54eadada.css",
+    "main.js": "/my-portfolio/static/js/main.b8331eae.js",
     "static/media/masui.jpg": "/my-portfolio/static/media/masui.e112cc4418bb59fce56f.jpg",
     "static/media/doggacha.png": "/my-portfolio/static/media/doggacha.2d2d4878616606468617.png",
     "static/media/pokedex.png": "/my-portfolio/static/media/pokedex.1e5e931d4c74be20d425.png",
@@ -16,11 +16,11 @@
     "static/media/python.svg": "/my-portfolio/static/media/python.6a8b2999db46fb931134216e8fdfdb2c.svg",
     "static/media/javascript.svg": "/my-portfolio/static/media/javascript.fd46ca41839433d73577989d86eb2fe2.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.6e88910f.css.map": "/my-portfolio/static/css/main.6e88910f.css.map",
-    "main.0f84d41f.js.map": "/my-portfolio/static/js/main.0f84d41f.js.map"
+    "main.54eadada.css.map": "/my-portfolio/static/css/main.54eadada.css.map",
+    "main.b8331eae.js.map": "/my-portfolio/static/js/main.b8331eae.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e88910f.css",
-    "static/js/main.0f84d41f.js"
+    "static/css/main.54eadada.css",
+    "static/js/main.b8331eae.js"
   ]
 }
