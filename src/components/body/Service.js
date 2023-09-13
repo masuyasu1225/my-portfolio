@@ -19,6 +19,7 @@ const Service = () => {
               <img src={doggacha} alt="doggcha" />
               <h4>Dog Gacha</h4>
               <div>えさを消費することで、犬の画像が表示されるガチャです。</div>
+              <div>使用技術：React, TypeScript, Google Firebase</div>
             </div>
           </a>
           <a
@@ -34,6 +35,7 @@ const Service = () => {
                 <br />
                 Udemyの講座をもとに自分でアレンジを加えました。
               </div>
+              <div>使用技術：React, AWS Amplify</div>
             </div>
           </a>
           <a
@@ -48,6 +50,7 @@ const Service = () => {
                 投稿・リプライ・削除機能を搭載したブログサービスです。 <br />
                 Udemyの講座をもとに自分でアレンジを加えました。
               </div>
+              <div>使用技術：React, Google Firebase</div>
             </div>
           </a>
           <a
@@ -63,6 +66,7 @@ const Service = () => {
                 <br />
                 友人との長期旅行でお金の割り勘のため実際に使用しました。
               </div>
+              <div>使用技術：Python, Railway</div>
             </div>
           </a>
         </div>
