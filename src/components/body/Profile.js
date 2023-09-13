@@ -76,7 +76,16 @@ const Profile = () => {
             <li>第189回HCI研究会学生奨励賞, HCI研究会貢献賞受賞</li>
           </div>
           <div>
-            <h3>趣味：筋トレ, ゲーム, 楽器演奏, 旅行, 野球観戦</h3>
+            <h3>
+              趣味：筋トレ, 楽器演奏, 旅行, 野球観戦,&nbsp;
+              <a
+                href="https://www.albatrossboard.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ボードゲーム制作
+              </a>
+            </h3>
           </div>
         </div>
       </div>
